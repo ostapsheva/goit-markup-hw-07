@@ -702,6 +702,9 @@ textarea {
 	background-color: #ffffff;
 }
 .form-close-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: absolute;
 	top: 8px;
 	right: 8px;
@@ -835,9 +838,19 @@ textarea {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 .checkbox-icon {
 	display: inline-block;
+	vertical-align: middle;
 	width: 16px;
 	height: 15px;
 	border: 2px solid #212121;
@@ -853,9 +866,9 @@ textarea {
 }
 .form-checkbox-text {
 	display: inline-block;
+	vertical-align: middle;
 	margin: 0px;
 	text-align: center;
-	vertical-align: text-bottom;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
