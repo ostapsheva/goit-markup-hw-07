@@ -14,3 +14,15 @@ body {
 	letter-spacing: 0.03em;
 	font-size: 14px;
 }
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+svg {
+	max-width: 100%;
+	height: auto;
+}
+button {
+	cursor: pointer;
+}
