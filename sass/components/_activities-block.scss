@@ -1,11 +1,11 @@
-.work-area-container {
+.activities-container {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
-.work-area-list {
+.activities-list {
 	display: flex;
 }
-.work-area-card {
+.activities-card {
 	width: calc((100% - 30px * 2) / 3);
 	position: relative;
 
@@ -13,7 +13,7 @@
 		margin-right: 30px;
 	}
 }
-.work-area-title {
+.activities-title {
 	padding-top: 27px;
 	padding-bottom: 27px;
 	font-size: 14px;

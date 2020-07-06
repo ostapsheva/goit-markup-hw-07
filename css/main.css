@@ -142,6 +142,24 @@ textarea {
   color: #2196f3;
 }
 
+.current-page {
+  color: #2196f3;
+  position: relative;
+}
+
+.current-page::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #2196f3;
+}
+
 .contacts {
   display: flex;
   align-items: center;
@@ -169,24 +187,6 @@ textarea {
 .contacts-icon {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.current-page {
-  color: #2196f3;
-  position: relative;
-}
-
-.current-page::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: #2196f3;
 }
 
 .hero {
@@ -302,25 +302,25 @@ textarea {
   line-height: 1.71;
 }
 
-.work-area-container {
+.activities-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.work-area-list {
+.activities-list {
   display: flex;
 }
 
-.work-area-card {
+.activities-card {
   width: calc((100% - 30px * 2) / 3);
   position: relative;
 }
 
-.work-area-card:not(:last-child) {
+.activities-card:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-area-title {
+.activities-title {
   padding-top: 27px;
   padding-bottom: 27px;
   font-size: 14px;
@@ -443,7 +443,7 @@ textarea {
   fill: currentColor;
 }
 
-.footer-background {
+.footer {
   background-color: #2f303a;
 }
 
@@ -454,7 +454,7 @@ textarea {
   padding-bottom: 60px;
 }
 
-.logo-adress-container {
+.footer-address {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
 }
@@ -481,12 +481,12 @@ textarea {
   color: #2196f3;
 }
 
-.join-in-container {
+.footer-socials-links {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
 }
 
-.join-in {
+.join-in-text {
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -591,13 +591,13 @@ textarea {
   margin-left: auto;
 }
 
-.portfolio-buttons-bar {
+.portfolio-filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-button-item:not(:last-child) {
+.portfolio-filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
